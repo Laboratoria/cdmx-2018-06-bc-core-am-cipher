@@ -1,0 +1,15 @@
+{
+  "name": "cipher",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "eslint --ext .js src/ test/",
+    "test": "opener ./test/index.html"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.1",
+    "opener": "^1.4.3"
+  }
+}
