@@ -162,3 +162,5 @@ video anterior:
 - [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
 - [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 - [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
+- [Documentación de NPM](https://docs.npmjs.com/)
+- [Documentación de yarn](https://yarnpkg.com/en/)
