@@ -2,16 +2,10 @@
 
 ## Preámbulo
 
-Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una
-fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto
-con amigos y familiares.
+Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto con amigos y familiares.
 
 Un gran problema es que pones tu alarma para levantarte temprano, sin embargo
-(como supondrás) eso nunca sucede y tu flacx es quien termina apagando la alarma
-y "de casualidad" revisando tus mensajes. Debido a que es algo sorpresa, decides
-crear una aplicación que te permita enviar mensajes encriptados y que las demás
-personas (partícipes de la fiesta) puedan tener una interfaz para
-desencriptarlo. Así que ahora te toca aplicar tus superpoderes 😎
+(como supondrás) eso nunca sucede y tu flacx es quien termina apagando la alarma y "de casualidad" revisando tus mensajes. Debido a que es algo sorpresa, decides crear una aplicación que te permita enviar mensajes encriptados y que las demás personas (partícipes de la fiesta) puedan tener una interfaz para desencriptarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
 ## Introducción
 
@@ -38,11 +32,7 @@ sistema ROT13.
 ## Objetivos
 
 El objetivo principal de aprendizaje de este reto es tener tu primera
-experiencia construyendo una aplicación web usando JavaScript, incluyendo
-diseñar y contruir una interfaz, escuchar eventos básicos del DOM, escribir
-lógica para llevar a cabo el cifado/descifrado, tests unitarios básicos para
-comprobar (y documentar) dicha lógica, y finalmente manipulación del DOM para
-mostrar (escribir) los resultados.
+experiencia construyendo una aplicación web usando tus conocimientos de User Experience Design y de JavaScript, incluyendo diseñar un producto pensando en los usuarios, diseñar y construir una interfaz, escuchar eventos básicos del DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación del DOM para mostrar (escribir) los resultados.
 
 Para completar el reto tendrás que familiarizarte con conceptos como _valores_,
 _tipos_, _variables_, _estructuras de datos_, _control de flujo_, _funciones_ y
@@ -86,7 +76,16 @@ como toda la configuración de dependencias y tests de ejemplo:
 
 ## Parte obligatoria
 
-### UI
+### Definición del producto
+
+En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu producto y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+
+* quiénes son los principales usarios de producto
+* cuáles son los objetivos de estos usarios en relación con el producto
+* cómo crees que el producto que estás creando les está resolviendo sus 
+  problemas
+
+#### UI
 
 La interfaz debe permitir al usuario:
 
@@ -111,6 +110,8 @@ La interfaz debe permitir al usuario:
        queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
        que queremos cifrar.
     - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
+      queremos mover a la izquierda en el alfabeto y `string` el mensaje 
+      (texto) que queremos decifrar.
 * `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
   o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
@@ -118,7 +119,7 @@ La interfaz debe permitir al usuario:
 
 ### Tests
 
-El boilerblate incluye tests de ejemplo y todo el setup necesario para
+El boilerplate incluye tests de ejemplo y todo el setup necesario para
 implementar y ejecutar los tests, así como _code coverage_ para ver el nivel de
 cobertura de los tests (ver consideraciones generales).
 
