@@ -2,10 +2,16 @@
 
 ## Preámbulo
 
-Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto con amigos y familiares.
+Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una
+fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto
+con amigos y familiares.
 
 Un gran problema es que pones tu alarma para levantarte temprano, sin embargo
-(como supondrás) eso nunca sucede y tu flacx es quien termina apagando la alarma y "de casualidad" revisando tus mensajes. Debido a que es algo sorpresa, decides crear una aplicación que te permita enviar mensajes encriptados y que las demás personas (partícipes de la fiesta) puedan tener una interfaz para desencriptarlo. Así que ahora te toca aplicar tus superpoderes 😎
+(como supondrás) eso nunca sucede y tu flacx es quien termina apagando la alarma
+y "de casualidad" revisando tus mensajes. Debido a que es algo sorpresa, decides
+crear una aplicación que te permita enviar mensajes encriptados y que las demás
+personas (partícipes de la fiesta) puedan tener una interfaz para
+desencriptarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
 ## Introducción
 
@@ -32,7 +38,12 @@ sistema ROT13.
 ## Objetivos
 
 El objetivo principal de aprendizaje de este reto es tener tu primera
-experiencia construyendo una aplicación web usando tus conocimientos de User Experience Design y de JavaScript, incluyendo diseñar un producto pensando en los usuarios, diseñar y construir una interfaz, escuchar eventos básicos del DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación del DOM para mostrar (escribir) los resultados.
+experiencia construyendo una aplicación web usando tus conocimientos de User
+Experience Design y de JavaScript, incluyendo diseñar un producto pensando en
+los usuarios, diseñar y construir una interfaz, escuchar eventos básicos del
+DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios
+básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación
+del DOM para mostrar (escribir) los resultados.
 
 Para completar el reto tendrás que familiarizarte con conceptos como _valores_,
 _tipos_, _variables_, _estructuras de datos_, _control de flujo_, _funciones_ y
@@ -49,7 +60,8 @@ No se debe utilizar la _pseudo-variable_ `this`.
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) usando el
-comando `npm test` (o `yarn test` si estás usando `yarn` como _package manager_).
+comando `npm test` (o `yarn test` si estás usando `yarn` como
+_package manager_).
 
 Para comenzar este reto tendrás que hacer un _fork_ y _clonar_ este repositorio
 que contiene el _boilerplate_.
@@ -78,7 +90,9 @@ como toda la configuración de dependencias y tests de ejemplo:
 
 ### Definición del producto
 
-En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu producto y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
+producto y cuál fue tu proceso para definir el producto final a nivel de
+experiencia y de interfaz.
 
 * quiénes son los principales usarios de producto
 * cuáles son los objetivos de estos usarios en relación con el producto
