@@ -71,8 +71,7 @@ No se debe utilizar la _pseudo-variable_ `this`.
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) usando el
-comando `npm test` (o `yarn test` si estás usando `yarn` como
-_package manager_).
+comando `npm test`.
 
 Para comenzar este reto tendrás que hacer un _fork_ y _clonar_ este repositorio
 que contiene el _boilerplate_.
@@ -212,10 +211,9 @@ soft skills, teniendo sólo 3 en el nivel 1. Te aconsejamos revisar la rúbrica.
 
 1. Haz un _fork_ de este repositorio en tu cuenta de GitHub.
 2. Clona el repo en tu computadora.
-3. Instala las dependencias del proyecto con el comando `npm install` (o
-   `yarn install` dependiendo de que _package manager_ estés usando).
+3. Instala las dependencias del proyecto con el comando `npm install`.
 4. Puedes ejecutar los tests con el comando `npm test` dentro de la carpeta del
-   reto (o `yarn test`)
+   reto.
 
 ***
 
@@ -234,7 +232,6 @@ video anterior:
 * [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 * [Documentación de NPM](https://docs.npmjs.com/)
-* [Documentación de yarn](https://yarnpkg.com/en/)
 
 Estos son algunos tips que te pueden ayudar en la organización y realización de
 tu proyecto, teniendo en cuenta el desarrollo de tus _Soft Skills_ (habilidades
