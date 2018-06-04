@@ -122,7 +122,6 @@ experiencia y de interfaz.
 * cuáles son los objetivos de estos usuarios en relación con el producto
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas
-* también incluye tus ejercicios de rapid prototyping
 
 Para llevar tus conocimientos a otro nivel en UX:
 
