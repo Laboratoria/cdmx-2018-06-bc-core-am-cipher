@@ -40,9 +40,8 @@ sistema ROT13.
 ## Objetivos
 
 El objetivo principal de aprendizaje de este proyecto es tener tu primera
-experiencia construyendo una aplicación web usando tus conocimientos de **User
-Experience Design** y de **JavaScript**. Esto incluye diseñar un producto
-pensando en los usuarios, construir una interfaz, escuchar eventos básicos del
+experiencia construyendo una aplicación web usando tus conocimientos de **User Experience Designer** y de **JavaScript developer**. Esto incluye diseñar un producto
+_pensando en los usuarios_, construir una interfaz, escuchar eventos básicos del
 DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios
 básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación
 del DOM para mostrar (escribir) los resultados.
@@ -52,12 +51,9 @@ Para completar el proyecto tendrás que familiarizarte con conceptos como
 [control de flujo](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/02-flow-control)
 y [tests unitarios](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/testing).
 
-Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es
-y su necesidad. La idea es que logres entender qué necesita el usuario para el
-que crearás el producto y le ayudes a resolver esa necesidad de la mejor manera
-posible.
+Esperamos que en este proyecto puedas _pensar en el usuario_, entendiendo quién y cuál(es) es su nececidad. La creación de este producto va a resolver esa(s) necesidad(es) y qué mejor que hacerlo de la mejor forma. Que sea totalmente lo que nuestro usuario necesita.
 
-Además, que puedas organizarte teniendo en cuenta el tiempo y los recursos
+También es importante que puedas organizarte teniendo en cuenta el tiempo y los recursos
 disponibles. Es la primera vez que evaluaremos tus habilidades blandas, pero debes
 considerar que son habilidades que probablemente ya has utilizado en distintas
 experiencias de tu vida. Lo importante es que realices el proyecto de manera
@@ -126,6 +122,13 @@ experiencia y de interfaz.
 * cuáles son los objetivos de estos usuarios en relación con el producto
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas
+* también incluye tus ejercicios de rapid prototyping
+
+Para llevar tus conocimientos a otro nivel en UX:
+
+* puedes investigar y aplicar algunas
+de las técnicas y herramientas relacionadas al proceso de diseño como
+entrevistas y testeos con usuarios de tus sketches o prototipos.
 
 ### UI
 
@@ -137,6 +140,8 @@ La interfaz debe permitir al usuario:
 * ver el resultado del mensaje cifrado
 * insertar un mensaje (texto) a descifrar
 * ver el resultado del mensaje descifrado
+
+Estos puntos lejos de ser funcionalidades, en términos de UI debes pensarlos como elementos que estalecer la interacción con tu usuario.
 
 ### Scripts / Archivos
 
@@ -170,12 +175,10 @@ de crear el objeto.
 Lo anterior, nos ayuda a observar tu capacidad de autoaprendizaje, pudiendo
 agregar a tu trabajo un elemento que lo lleva al siguiente nivel.
 
-Para el diseño de la experiencia de usuario, puedes investigar y aplicar algunas
-de las técnicas y herramientas relacionadas al proceso de diseño como
-entrevistas y testeos con usuarios o sketching y prototipado.
 
-Lo mismo en habilidades blandas, puedes realizar una planificación experta
-teniendo en consideración la utilización de herramientas de planificación, como
+## Soft Skills
+
+Puedes realizar una planificación experta teniendo en consideración la utilización de herramientas de planificación, como
 un calendario, trello, papelógrafo u otras, creando un plan paso a paso de cómo
 quiere abarcar el reto o problema. Realizando una estimación realista del
 tiempo.
