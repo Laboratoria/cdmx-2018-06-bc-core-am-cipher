@@ -94,9 +94,13 @@ como toda la configuración de dependencias y tests de ejemplo:
 │   ├── index.js
 │   └── style.css
 └── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
+│   ├── cipher.spec.js
+│   ├── headless.js
+│   └── index.html
+│   └── style.css
+└── ux
+    └── README.md
+    
 ```
 
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
@@ -109,6 +113,8 @@ información sobre el parser que usar (qué version de JavaScript/ECMAScript), e
 entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
 En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
+
+En la carpeta de **UX**, como puedes ver sólo hay un `README` donde vas a encontrar una guía de qué hacer. Te pedimos que ahí mismo documentes ese proceso que realizaste.
 
 ## Parte obligatoria
 
