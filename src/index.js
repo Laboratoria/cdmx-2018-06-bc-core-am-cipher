@@ -14,7 +14,6 @@ function cifradoCesar() {
   }
   dato2.value=ca;
   dato3.value=cc.join('');
-
 }
 
 function cifradoCesarTwo() {
