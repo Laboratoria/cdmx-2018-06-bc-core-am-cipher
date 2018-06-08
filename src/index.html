@@ -5,8 +5,29 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root"></div>
+  <header>
+        <h1>Cifrado</h1>
+        <h3>Instrucciones</h3>
+    </header>
+    <body>
+        <form id="textOne">
+            Ingresa el texto a cifrar
+            <br>
+            <input type="text" id ="theName" placeholder="Escribe aquí">
+            <br>
+            Tu número de la suerte
+            <br>
+            <input type="number" id="theNumber" placeholder="Pon un número" >
+            <!--<input type="button" value="enviar" onclick="textTwoTwo()">-->
+            <input type="button" value="Codifica" onclick="textOneOne()">
+            </form>
+        <form id="textThree">
+            Aquí esta el cifrado
+            <br>
+            <input type="text" id="theTextTwo">
+            </form>
+        
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
