@@ -5,29 +5,32 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <header>
-        <h1>Cifrado</h1>
-        <h3>Instrucciones</h3>
+  <body>
+    <div class="marca">
+      <header>
+      <h1>Code BF</h1>
     </header>
-    <body>
-        <form id="textOne">
-            Ingresa el texto a cifrar
-            <br>
-            <input type="text" id ="theName" placeholder="Escribe aquí">
-            <br>
-            Tu número de la suerte
-            <br>
-            <input type="number" id="theNumber" placeholder="Pon un número" >
-            <!--<input type="button" value="enviar" onclick="textTwoTwo()">-->
-            <input type="button" value="Codifica" onclick="textOneOne()">
-            </form>
-        <form id="textThree">
-            Aquí esta el cifrado
-            <br>
-            <input type="text" id="theTextTwo">
-            </form>
-        
-
+    </div>
+    <div class="izquierdo">
+      <p>Instrucciones</p>
+    </div>
+    <div class="derecho">
+      Introduce tu texto
+      <br>
+      <input id="string" type="text" name=""> <!--Texto del usuario-->
+      <input id= "encode" type="button" value="Cifrar"> <!--Botón de cifrar-->
+      <input id= "decode" type="button" value="Descifrar"> <!--Botón de descifrar-->
+      <br>
+      <br>
+      Piensa un número
+      <br>
+      <input id="offset" type="number" name="theNumber" ><!--Número de desplazamientos-->
+      <br>
+      <br>
+      Aquí esta tu código
+      <br>
+      <input id="result" type="text" name="textCod" ><!--Texto codificado-->
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
