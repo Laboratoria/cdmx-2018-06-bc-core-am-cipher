@@ -1,24 +1,16 @@
-const newText = document.getElementById("string"); //Texto del usuario
-const newNumber = document.getElementById("offset"); //Número del usuario
 const bottonEncode = document.getElementById("encode"); //id del boton cifrar
 const bottonDecode = document.getElementById("decode");// id del boton descifrar
-let total = document.getElementById("result"); //Input que devolvera el texto
 
-bottonEncode.addEventListener("click", event => {
-    let clickEncode = window.cipher.encode(
-        newNumber.value,
-        newText.value,
-        total.value
-    );
+bottonEncode.addEventListener("click", event => {//Evento del boton cifrar
+    let newText = document.getElementById("string").value;// Captura de datos de los input USUARIO
+    let newNumber = document.getElementById("offset").value; //Número del usuario
+    let resultado = cipher.encode(newNumber,newText);// Cifrar
+    document.getElementById("result").value = resultado;// Pinte en el HTML
 });
-
-bottonDecode.addEventListener("click", event => {
-    let clickDecode = window.cipher.decode(
-        newNumber.value,
-        newText.value,
-        total.value
-    );
+bottonDecode.addEventListener("click", event => { //Evento del boton descifrar
+    let newText = document.getElementById("string").value;// Captura de datos de los input USUARIO
+    let newNumber = document.getElementById("offset").value; //Número del usuario
+    let resultado2 = cipher.decode(newNumber,newText);// Descifrar
+    document.getElementById("result").value = resultado2;// Pinte en el HTML
 });
-
-
 
