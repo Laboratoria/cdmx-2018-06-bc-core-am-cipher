@@ -6,28 +6,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
+<h1>MonkeyCypher</h1>
 
     <div id="root">
-    <br>  FRASE <br>
-  <input  type ="text" id='caja1' placeholder="Frase">
+      <section>
 
-<br>
-      NUMERO <br>
-  <input type="text" id='caja2' placeholder="resp2">
-  <button onclick="cipher.encode(dato,offset)">Continuar</button>
-<br>
-      CODIGO <br>
-  <input type="text" id='caja3' placeholder="fraseUltima">
-<button onclick="cipher.decode(dato3,offset)">continuar</button>
+        <div class='fila'>
+          <input  type ="text" id='caja1' placeholder="Frase">
+        </div>
+        <div class='fila'>
+          <button id="boton1"> cifrar </button>
+          <div class='fila' id='key'>
+          <input type="text" id='caja2' placeholder="key">
+          </div>
+          <button onclick="cipher.decode(dato3.value,offset.value)">decifrar</button>
 
+        </div>
+        <div class='fila'>
+          <input type="text" id='caja3' placeholder="fraseUltima">
+        </div>
+      </section>
     </div>
-
+<button id="button" data-sharer="facebook" data-url="https://ellisonleao.github.io/sharer.js/">Share on Facebook</button>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
     <div>
-     <a   target= '_blank' href="https://kiplingmexico.com/collections/mochilas">
-       <img src="https://thumb.ibb.co/ifO2pd/kiplin_cumple.jpg" alt="kiplin_cumple"  </a>
+     <a   target='_blank' href="https://kiplingmexico.com/collections/mochilas">
+       <img src="../img/monkey-card.png" alt="kiplin_cumple"  /></a>
 
     </div>
   </body>
