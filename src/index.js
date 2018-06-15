@@ -13,4 +13,3 @@ bottonDecode.addEventListener("click", event => { //Evento del boton descifrar
     let resultado2 = cipher.decode(newNumber,newText);// Descifrar
     document.getElementById("result").value = resultado2;// Pinte en el HTML
 });
-

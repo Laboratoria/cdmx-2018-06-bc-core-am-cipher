@@ -5,21 +5,32 @@ body{
 }  
 h1{
   text-align: center;
-  color:black;
-  font-style:italic;
-  font-weight:bold;
-  font-size:2em;
-  font-family:'Lucida Sans';
 }
-div.izquierdo{
-  float: left;
-  background-color:blue;
-  width: 35%;
-  height: 100%;
+#bloque1, #bloque2{
+  background-color:rgba(216, 91, 29, .8);
+  border-radius: 20px;
+  display: inline-flex;
+  font-family: 'Oswald', sans-serif;
+  justify-content: center;
+  width: 45%;
 }
-div.derecho{
-  float: right;
-  background-color: blue;
-  width: 35%;
-  height: 100%;
+#bloque1{
+     text-align: center;
 }
+#encode, #decode{
+  background-color: #5AF5DA;
+  border-radius: 6px;
+  color: #000000;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px;
+  text-decoration: none; 
+}
+#encode:hover, #decode:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+#string, #result, #offset{ 
+  border-radius: 6px;
+}
+

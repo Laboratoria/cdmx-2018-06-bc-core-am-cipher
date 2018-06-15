@@ -43,5 +43,4 @@ decode: (offset,string) =>{//Función descifrar
     }
     return newNothing; //Las funciones siempre devuelven algo en return
 }
-
 };
