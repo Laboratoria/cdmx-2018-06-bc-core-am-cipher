@@ -6,6 +6,7 @@ body{
 h1{
   text-align: center;
 }
+
 #bloque1, #bloque2{
   background-color:rgba(216, 91, 29, .8);
   border-radius: 20px;
