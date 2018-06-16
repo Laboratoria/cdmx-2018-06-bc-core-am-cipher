@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<head>
+ <meta charset="utf-8">
+ <!--Metadata. Para el browser-->
+ <title>Caesar Cipher</title>
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <!--Mensaje de bienvenida para la usuaria-->
+ <h1>Bienvenida al Cifrado César</h1>
+  <h2>Guarda tu secreto</h2>
+ <!--Input donde la usuaria ingresará el mensaje que desea cifrar-->
+ <input type='text' id='mensaje' placeholder='Ingresa tu mensaje'> </input>
+ <!--Input donde la usuaria ingresará el offset que usará mi función de cifrado-->
+ <input id='offsetvalor' placeholder='Ingresa el offset deseado'> </input>
+ <!--Botón que hará que la "magia" suceda. Función cifrar-->
+ <button id='enCode'>Cifrar</button>
+     </br>
+ <!--Section donde se imprimirá el mensaje cifrado que ingresó la usuaria-->
+ <section id='textoCifrado'> </section>
+ <!--Área de descifrado-->
+ <h2>Descubre el secreto</h2>
+ <!--Input donde la usuaria ingresará el mensaje que desea descifrar-->
+ <input type='text' id='mensajeadescifrar' placeholder='Ingresa el secreto'> </input>
+ <!--Input donde la usuaria ingresará el offset que usará la función de descifrado-->
+ <input id='offsetvalor2' placeholder='Ingresa tu password'> </input>
+ <!--Botón que deshará la "magia". Función descifrar-->
+ <button id='deCode'>Descifrar</button>
+    </br>
+ <!--Section donde se imprimirá el mensaje cifrado que ingresó la usuaria-->
+ <section id='textoDescifrado'> </section>
+ <div id="root"></div>
+ <script src="cipher.js"></script>
+ <script src="index.js"></script>
+</body>
 </html>
