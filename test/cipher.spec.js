@@ -14,6 +14,7 @@ describe('cipher', () => {
 
        assert.equal(cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33),"HIJKLMNOPQRSTUVWXYZABCDEFG");
   });
+
   });
 
 });

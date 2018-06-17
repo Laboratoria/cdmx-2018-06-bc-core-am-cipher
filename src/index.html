@@ -4,35 +4,72 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   </head>
   <body>
-<h1>MonkeyCypher</h1>
 
     <div id="root">
-      <section>
-
-        <div class='fila'>
-          <input  type ="text" id='caja1' placeholder="Frase">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1>MonkeyCypher</h1>
         </div>
-        <div class='fila'>
-          <button id="boton1"> cifrar </button>
-          <div class='fila' id='key'>
-          <input type="text" id='caja2' placeholder="key">
+        <div class="row">
+          <div class="col-3 col-sm-12	col-md-12 col-lg-3	">
+            <div class="jumbotron">
+              Instrucciones cifrado
+            <br> <br>paso 1 : pon la llave con la que podrás cifrar y descifrar le mensaje.
+            <br> <br>paso 2 : escribe tu condigo en la caja de cifrar.
+            <br> <br>paso 3: da click en cifrar y luego encontrar compartir para enviarlo a tus amigos o familiares.
+            </div>
           </div>
-          <button onclick="cipher.decode(dato3.value,offset.value)">decifrar</button>
+          <div class="col-6 ol-sm-12	col-md-12 col-lg-6">
+            <div class="row">
+              <div class="col-10 offset-md-1">
+                <input  type ="text" id='caja1' placeholder="Frase" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3 offset-md-1 text-center">
+                <button id="boton1" class="btn btn-info"> cifrar </button>
+              </div>
+              <div class="col-3 text-center">
+                <input type="text" id='caja2' placeholder="key">
+              </div>
+              <div class="col-3 text-center">
+                <button onclick="cipher.decode(dato3.value,offset.value)" class="btn btn-info">decifrar</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-10 offset-md-1">
+                <input type="text" id='caja3' placeholder="fraseUltima">
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-12	col-md-12 col-lg-3">
+            <div class="jumbotron">
+              instrucciones descifrado
+              <br> <br>paso 1 :  pon la llave que han brindado para ver el mensaje.
+              <br> <br>paso 2 : escribe le mensaje en la caja de descifrar.
+              <br> <br>paso 3 : da click en el botón de descifrar y descubre el mensaje secreto.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 ">
+            <a   target='_blank' href="https://kiplingmexico.com/collections/mochilas">
+              <img src="../img/monkey-card.png" alt="kiplin_cumple"  />
+            </a>
+          </div>
+        </div>
+      </div>
 
-        </div>
-        <div class='fila'>
-          <input type="text" id='caja3' placeholder="fraseUltima">
-        </div>
-      </section>
     </div>
-<button id="button" data-sharer="facebook" data-url="https://ellisonleao.github.io/sharer.js/">Share on Facebook</button>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <div>
-     <a   target='_blank' href="https://kiplingmexico.com/collections/mochilas">
-       <img src="../img/monkey-card.png" alt="kiplin_cumple"  /></a>
 
     </div>
   </body>

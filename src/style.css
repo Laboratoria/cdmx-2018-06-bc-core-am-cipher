@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
 html,
 body {
     height: 100%;
@@ -7,7 +9,7 @@ h1{
   text-align: center;
   text-decoration-color: white;
   text-shadow: 200px;
-  font-family: monospace;
+  font-family: 'Gloria Hallelujah' !important;
   font-size: 100px;
 }
 body{
@@ -23,22 +25,42 @@ section{
   width: 100%;
   height: 100%
 }
-img{
-
-  position: fixed;
-  bottom: 0;
-  right: 0px;
-}
-.fila{
-  margin: 2% 0
+#caja1, #caja3{
+  width: 100%;
+  height: 185px;
+  margin: 5% 0;
+  border: 1px solid yellow;
+  background: #d8cff5;
 }
 #caja2{
   width: 50px;
 }
-#key{
-
+img{
+  width: 111px;
+  position: fixed;
+  right: 19px;
+  top: 17px;
 }
 #button{
   background: #6457A6;
   font: white;
+}
+input::-webkit-input-placeholder {
+   text-align: center;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+input:-ms-input-placeholder {
+   text-align: center;
+}
+
+input:focus{
+  outline: 0
 }
