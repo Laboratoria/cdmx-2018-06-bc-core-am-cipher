@@ -1,0 +1,74 @@
+header{
+    background-color: #58d1ea;
+    color: white;
+}
+h1{
+    padding-left: 10%;
+    font-size: 4em;
+}
+span{
+    font-size: 1.5em;
+}
+textarea{
+    border-width: 0.1em;
+    border-color: white;
+    color:white;
+}
+img{
+    height: 8em;
+    width: 8em;
+    margin: 1em;
+}
+#offsetvalor{
+    border-bottom: 0.1em solid white;
+    color: white;
+}
+#offsetvalor2{
+    border-bottom: 0.1em solid white;
+    color: white;
+}
+
+.row{
+    margin-bottom: 0;
+}
+
+.btn{
+    background-color: #ffeb3b;
+    border-color: 0.1em solid #ffeb3b;
+    color: #11b1ea;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.areaMensajes{
+    color:white;
+}
+
+.espacioLeft{
+    height: 10em;
+    background-color: #dc6bad;
+}
+
+.espacioRight{
+    height: 10em;
+    background-color: #8c7aa9;
+}
+
+.left{
+    height: 10em;
+    background-color: #dc6bad;
+}
+
+
+.right{
+    height: 10em;
+    background-color: #8c7aa9;
+}
+
+footer{
+    background-color: #22b2d0;
+    color: #673ab7;
+    font-size: 1em;
+}
+#textoFooter{
+    padding-left: 6%;  
+}

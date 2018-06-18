@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!--Metadata. Para el browser-->
+ <title>Caesar Cipher</title>
+ <!--Import Google Icon Font-->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<section class="container-fluid">
+<header class="row">
+  <div class="col s1 offset-s2">
+    <img src="Img/imgUnicorn.png" alt="unicorn">
+  </div>
+  <div class="col s6">
+  <h1>¡Cifra y descifra tu mensaje!</h1>
+  </div>
+  <div class="col s1">
+    <img src="Img/imgUnicorn.png" alt="unicorn">
+  </div>
+</header>
+
+<section class="row">     <!--Espacio entre header y formulario -->
+  <div class="col s6 espacioLeft"></div>
+  <div class="col s6 espacioRight"></div>
+</section>
+
+<section class="row areaMensajes" id="primerow">
+        <div class="col s1 left"></div>
+        <div class="col s4 left">
+            <span>Ingresa tu mensaje aquí:</span>
+            <textarea id="mensaje"></textarea>
+        </div> 
+        <div class="col s1 left"></div>
+        <div class="col s1 right"></div>
+        <div class="col s4 right">
+            <span>Ingresa tu mensaje aquí:</span>
+            <textarea id="mensajeadescifrar"></textarea>
+        </div>
+        <div class="col s1 right"></div>
+    </section>
+
+<section class="row areaMensajes">
+      <div class="col s1 left"></div>
+      <div class="col s4 left">
+          <span>Ingresa tu llave numérica:</span>   
+          <input id="offsetvalor" type="text"/>   
+          <button id="enCode" class="waves-effect btn">Cifrar</button>
+      </div> 
+      <div class="col s1 left"></div>
+      <div class="col s1 right"></div>
+      <div class="col s4 right">
+          <span>Ingresa tu llave numérica:</span> 
+          <input id="offsetvalor2" type="text"/>
+          <button id="deCode" class="waves-effect btn">Descifrar</button>
+      </div>
+      <div class="col s1 right"></div>
+</section>
+
+<section class="row areaMensajes">
+  <div class="col s1 left"></div>
+  <div class="col s4 left">
+      <span>Tu mensaje cifrado es:</span>
+      <textarea id="textoCifrado"></textarea>
+  </div>
+  <div class="col s1 left"></div> 
+  <div class="col s1 right"></div>
+  <div class="col s4 right">
+      <span>Tu mensaje descifrado es:</span>
+      <textarea id="textoDescifrado"></textarea>
+  </div>
+  <div class="col s1 right"></div>
+</section>
+
+<section class="row"> <!--Espacio entre formulario y footer-->
+<div class="col s6 espacioLeft"></div>
+<div class="col s6 espacioRight"></div>
+</section>
+
+<footer class="row">
+<div class="col s4 offset-s4" id="textoFooter">
+  <p>Developed by Mariana Flores  Powered by Name.null Studio</p>
+</div>
+</footer>
+
+
+</section>
+ 
+ <div id="root"></div>
+ <script src="cipher.js"></script>
+ <script src="index.js"></script>
+ <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</body>
 </html>
