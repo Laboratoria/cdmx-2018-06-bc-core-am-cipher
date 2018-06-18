@@ -3,7 +3,8 @@ body{
   background-size: 100% 100%;
   background-attachment: fixed;
 }  
-h1{
+h1{ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -16,7 +17,7 @@ h1{
   width: 45%;
 }
 #bloque1{
-     text-align: center;
+    text-align: center;
 }
 #encode, #decode{
   background-color: #5AF5DA;
@@ -28,8 +29,8 @@ h1{
   text-decoration: none; 
 }
 #encode:hover, #decode:hover{
-  color: #1883ba;
   background-color: #ffffff;
+  color: #1883ba;
 }
 #string, #result, #offset{ 
   border-radius: 6px;

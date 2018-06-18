@@ -1,0 +1,1 @@
+Partiendo de que nadie guarda mejor nuestros secretos como un BFF oopte por la solucion de un codigo simple y sencillo.
